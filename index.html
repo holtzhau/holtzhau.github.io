@@ -1,0 +1,162 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+
+<head>
+    <title>Rentia & Pieter's wedding</title>
+    <link rel="stylesheet" type="text/css"
+          href="static/css/wedding.css">
+</head>
+
+<body>
+
+  <div id="container">
+
+<!--     <a href="index.html">
+      <h1 id="banner">
+        Rentia & Pieter's Wedding
+      </h1>
+    </a>
+ -->
+
+
+
+    <div id="navigation">
+      
+                                        <!-- ('travel', 'Travel'), -->
+                                        <!-- ('schedule', 'Schedule'), -->
+                                        <!-- ('activities', 'Activities'), -->
+        <a href="index.html"
+            id='current' 
+           >
+           
+             Rentia & Pieter</a>
+           
+        </a>
+
+        
+          &bull;
+        
+      
+                                        <!-- ('travel', 'Travel'), -->
+                                        <!-- ('schedule', 'Schedule'), -->
+                                        <!-- ('activities', 'Activities'), -->
+        <a href="invite.html"
+           
+           >
+           
+             Invitation</a>
+           
+        </a>
+
+        
+          &bull;
+        
+      
+                                        <!-- ('travel', 'Travel'), -->
+                                        <!-- ('schedule', 'Schedule'), -->
+                                        <!-- ('activities', 'Activities'), -->
+        <a href="location.html"
+           
+           >
+           
+             Location</a>
+           
+        </a>
+
+        
+          &bull;
+        
+      
+                                        <!-- ('travel', 'Travel'), -->
+                                        <!-- ('schedule', 'Schedule'), -->
+                                        <!-- ('activities', 'Activities'), -->
+        <a href="accommodation.html"
+           
+           >
+           
+             Accommodation</a>
+           
+        </a>
+
+        
+          &bull;
+        
+      
+                                        <!-- ('travel', 'Travel'), -->
+                                        <!-- ('schedule', 'Schedule'), -->
+                                        <!-- ('activities', 'Activities'), -->
+        <a href="rsvp.html"
+           
+           >
+           
+             RSVP</a>
+           
+        </a>
+
+        
+          &bull;
+        
+      
+                                        <!-- ('travel', 'Travel'), -->
+                                        <!-- ('schedule', 'Schedule'), -->
+                                        <!-- ('activities', 'Activities'), -->
+        <a href="registry.html"
+           
+           >
+           
+             <img src="http://emoji.fileformat.info/gemoji/gift.png" class="gift-icon"/>
+           
+        </a>
+
+        
+      
+
+    </div>
+
+    <div id="content">
+     <hr id="content-divider"/>
+    
+
+    <div class="front-image">
+      <img width=540 height=540 src="static/images/couple.jpg"/>
+    </div>
+    
+    
+
+
+
+
+     <hr id="content-divider"/>
+    </div>
+
+  </div>
+
+</body>
+
+<script>
+   (function() {
+     var titles = [
+       {
+         text: "Pieter & Rentia's Wedding",
+       },
+       {
+         text: "Rentia and Pieter's Wedding",
+       }
+     ];
+
+     if(typeof(Storage) !== "undefined") {
+       if (!sessionStorage.which_title) {
+           sessionStorage.which_title = Math.floor(Math.random() * titles.length);
+       }
+
+       var title = document.getElementById("banner");
+       title.innerHTML = titles[sessionStorage.which_title].text;
+     }
+
+   })();
+ </script>
+
+
+</html>

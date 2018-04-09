@@ -1,0 +1,257 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+body {
+    /*background-image: url('../images/Sherwin_Range_Benton_Crossing__rescaled.jpg');*/
+    /*background-image: url('../images/flowers.png');*/
+    background-image: url('../images/realcleanflowers.jpeg');
+    /*background-image: url('../images/background.jpg');*/
+    /*background-image: url('../images/0.jpeg');*/
+    /*background-image: url('../images/unnamed.png');*/
+    background-repeat: no-repeat;
+    background-position: center-top;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    font-family: 'Lora', serif;
+    font-size: 120%;
+    overflow: scroll;
+ }
+
+#container {
+    position: absolute;
+    top: 50px;
+    width: 1000px;
+    background: white;
+    margin:auto;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*margin-top: auto;*/
+    /*margin-bottom: auto;*/
+    padding-bottom: 3em;
+    padding-top: 1em;
+    overflow: auto;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#banner {
+    /* See more gold colors here:
+       http://www.rapidtables.com/web/color/Gold_Color.htm
+     */
+    /*color: #D4AF37;*/
+    color: black;
+    text-align: center;
+    /*font-family: 'Dancing Script', cursive;*/
+    /*font-family: 'Crimson Text';*/
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: 3em;
+}
+
+#navigation {
+    /*color: #D4AF37;*/
+    color: black;
+    text-align: center;
+    /*font-family: 'Dancing Script', cursive;*/
+    /*font-family: 'Crimson Text';*/
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5em;
+}
+
+#current {
+    text-decoration: none;
+    border-bottom: 3px solid rgb(150,10,10);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.front-image {
+    display: block-inline;
+    text-align: center;
+    padding-bottom: 1.75em;
+}
+
+#content-divider {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #D4AF37;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    padding-bottom: 1em;
+    width: 800px;
+    font-size: 0.9em;
+}
+
+.center {
+    text-align: center;
+}
+
+#content h2 {
+    font-family: sans-serif;
+    font-size: 130%;
+    margin-bottom: 0.25em;
+}
+
+#content h3 {
+    font-family: sans-serif;
+    font-size: 110%;
+    margin-bottom: 0.2em;
+}
+
+#content a {
+    font-weight: bold;
+    color: rgb(80, 150, 180);
+    border-bottom: 1px dashed;
+}
+
+#content p {
+    margin-top: 0;
+    padding-tom: 0;
+}
+
+.gift-icon {
+    height: 1em;
+    vertical-align: -15%;
+}
+
+.events {
+    padding-bottom: 3em; /* not sure why we need this */
+    border-bottom: 3px solid;
+    /*color: #D4AF37;*/
+    color: black;
+}
+
+.event {
+    clear: both;
+    padding-bottom: 1em;
+}
+
+.event-header {
+    border-bottom: 3px solid;
+    padding-bottom: 0px;
+    margin-bottom: 1em;
+    color: #D4AF37;
+}
+
+.event-time {
+    width: 12em;
+    display: block;
+    float: left;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.event-name {
+    display: block-inline;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.event-place {
+    display: block;
+    float: right;
+    font-family: sans-serif;
+}
+
+.event-place img {
+    height: 1.5em;
+    vertical-align: -30%;
+}
+
+.event-description {
+    clear: both;
+    float: left;
+    margin-top: 0.5em;
+    margin-bottom: 1.25em;
+    font-style: italic;
+    font-size: 90%;
+}
+
+.accommodation {
+    display: block;
+    margin-bottom: 3em;
+    clear: both;
+    min-height: 200px;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5em;
+}
+
+.accommodation .name {
+    /*font-weight: bold;*/
+    /*font-family: sans-serif;*/
+    display: block-inline;
+    padding-bottom: 0.2em;
+    clear: both;
+    /*font-size: 110%;*/
+}
+
+.accommodation .map {
+    float: right;
+    padding: 0.5em;
+}
+
+.accommodation .address {
+    display: block;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5em;
+}
+
+.accommodation .phone {
+    display: block;
+}
+
+.accommodation .url {
+    display: block-inline;
+}
+
+.accommodation .email {
+    display: block;
+}
+
+.accommodation .description {
+    display: block;
+    font-style: italic;
+    padding-top: 0.5em;
+}
+
+.left {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.right {
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+#left-column {
+    float: left;
+    width: 375px;
+    border-right: 1px solid #D4AF37;
+    padding-right: 25px;
+    margin-right: 0;
+}
+
+#right-column {
+    float: right;
+    width: 375px;
+    padding-left: 25px;
+    margin-left: 0;
+    padding-left: 0;
+}
