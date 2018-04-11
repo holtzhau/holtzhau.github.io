@@ -228,6 +228,11 @@ a {
     padding-top: 0.5em;
 }
 
+.registry {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5em;
+}
+
 .left {
     float: left;
     margin-right: 1em;
@@ -255,3 +260,4 @@ a {
     margin-left: 0;
     padding-left: 0;
 }
+
