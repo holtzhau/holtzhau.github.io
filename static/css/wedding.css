@@ -22,8 +22,8 @@ body {
 #container {
     position: absolute;
     top: 50px;
-    /*width: 960px;*/
-    width: 1000px;
+    width: 960px;
+    /*width: 1000px;*/
     background: white;
     margin:auto;
     /*margin-left: auto;*/
