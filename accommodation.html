@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-    <title>Rentia & Pieter's wedding</title>
+    <title id="sexist-title">Rentia & Pieter's wedding</title>
     <link rel="stylesheet" type="text/css"
           href="static/css/wedding.css">
 </head>
@@ -23,13 +23,12 @@
 
 
     <div id="navigation">
-      
                                         <!-- ('travel', 'Travel'), -->
                                         <!-- ('schedule', 'Schedule'), -->
                                         <!-- ('activities', 'Activities'), -->
         <a href="index.html"
            
-           >
+          class="sexist-tab" >
            
              Rentia & Pieter</a>
            
@@ -609,23 +608,34 @@ Stanford
 
 <script>
    (function() {
-     var titles = [
+     var tab_titles = [
        {
-         text: "Pieter & Rentia's Wedding",
+         text: "Pieter & Rentia",
        },
        {
-         text: "Rentia and Pieter's Wedding",
+         text: "Rentia and Pieter",
        }
      ];
 
-     if(typeof(Storage) !== "undefined") {
-       if (!sessionStorage.which_title) {
-           sessionStorage.which_title = Math.floor(Math.random() * titles.length);
-       }
+       var titles = [
+           {
+               text: "Pieter & Rentia's Wedding",
+           },
+           {
+               text: "Rentia and Pieter's Wedding",
+           }
+       ];
 
-       var title = document.getElementById("banner");
-       title.innerHTML = titles[sessionStorage.which_title].text;
-     }
+
+          var which_title = Math.floor(Math.random() * titles.length);
+
+
+       var title = document.getElementById("sexist-title");
+       title.innerHTML = titles[which_title].text;
+
+         var tab_title = document.getElementsByClassName("sexist-tab")[0];
+         tab_title.innerHTML = tab_titles[which_title].text;
+
 
    })();
  </script>
